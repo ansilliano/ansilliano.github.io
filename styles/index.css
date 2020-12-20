@@ -21,6 +21,11 @@ html {
   align-items: flex-end;
 }
 
+.frame-uno svg {
+  width: 100%;
+  margin: -2rem 2rem;
+}
+
 .frame-uno img {
   width: 50%;
   height: auto;
@@ -36,12 +41,12 @@ html {
   background-color: #fdd03b;
   margin: auto;
 }
-.frame-dos img {
-  width: 30%;
-  height: auto;
+
+.frame-dos svg {
+  width: 100%;
+  margin: 0 auto;
   display: block;
-  margin: auto;
-  padding: 1rem 0;
+  padding: 1rem 2rem;
 }
 
 .frame-dos p {
