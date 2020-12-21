@@ -16,14 +16,14 @@ html {
 .frame-uno {
   width: 100%;
   height: 50%;
-  background-color: #00202e;
+  background-color: #280206;
   display: flex;
   align-items: flex-end;
 }
 
 .frame-uno svg {
   width: 100%;
-  margin: -2rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .frame-uno img {
@@ -38,7 +38,7 @@ html {
 .frame-dos {
   width: 100%;
   height: 40%;
-  background-color: #fdd03b;
+  background-color: #e84141;
   margin: auto;
 }
 
@@ -50,14 +50,14 @@ html {
 }
 
 .frame-dos p {
-  color: #00202e;
+  color: #280206;
   font-family: "Covered By Your Grace", cursive;
   text-align: center;
   font-size: 4rem;
 }
 
 .frame-tres {
-  background-color: #fdd03b;
+  background-color: #e84141;
   width: 100%;
   height: 10%;
   padding: 2rem;
@@ -71,12 +71,17 @@ html {
 
 .icon {
   padding: 0 1rem;
-  color: #7de8ea;
+  color: #280206;
 }
 
 @media screen and (max-width: 425px) {
   .frame-uno img {
     bottom: -0.5rem;
+  }
+
+  .frame-uno svg {
+    width: 100%;
+    margin: -5rem 2rem;
   }
 
   .frame-dos p {
